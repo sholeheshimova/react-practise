@@ -1,0 +1,133 @@
+.sec1{
+   background-image: url('https://img.freepik.com/free-photo/abstract-luxury-plain-blur-grey-black-gradient-used-as-background-studio-wall-display-your-products_1258-63617.jpg');
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    
+    img{
+        height: 500px;
+        display: block;
+        margin-left: 60rem;
+    }
+    .text{
+        width: 40%;
+       position: absolute;
+       text-align: center;
+       color: black;
+       font-size: 2rem;
+       font-weight: bold;
+    }
+    button{
+        width: 100px;
+        height: 40px;
+        margin-top: 1rem;
+        border: none;
+        background-color: rgb(127, 126, 126);
+        border-radius: 5px;
+        color: white;
+    }
+
+}   
+.sec2{
+    margin-top: 3rem;
+    h1{
+        text-align: center;
+    }
+    .cards{
+        margin-top: 2rem;
+        display: flex;
+        justify-content: center;
+        gap: 50px;
+        img{
+            height: 400px;
+        }
+        h4{
+            margin-top: 20px;
+            text-align: center;
+            font-size: 20px;
+        }
+        p{
+            margin-top: 10px;
+            text-align: center;
+            font-size: 20px;
+            font-weight: bold;
+            span{
+                color: red;
+            }
+        }
+    }
+}
+.sec3{
+    margin-top: 3rem;
+    h1{
+        text-align: center;
+    }
+}
+.sec4{
+    margin-top: 3rem;
+    .common1{
+        display: flex;
+        .texts{
+            width: 50%;
+            margin-left: 1rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            h1{
+                margin-bottom: 3rem;
+            }
+            button{
+                margin-top: 2rem;
+                width: 100px;
+                height: 40px;
+                // margin-left: 1rem;
+                border: none;
+                background-color: red;
+                color: white;
+                cursor: pointer;
+                border-radius: 5px;
+            }
+        }
+    }
+    .common2{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 2rem;
+        .texts{
+            flex: 1;
+            padding-right: 2rem;
+            h1{
+                font-size: 2.5rem;
+                font-weight: bold;
+                margin-bottom: 1rem;
+            }
+            p{
+                font-size: 1rem;
+                margin-bottom: 1.5rem;
+            }
+            button{
+                margin-top: 2rem;
+                width: 100px;
+                height: 40px;
+                // margin-left: 1rem;
+                border: none;
+                background-color: red;
+                color: white;
+                cursor: pointer;
+                border-radius: 5px;
+            }
+        }
+        .imgs{
+            flex: 1;
+            display: flex;
+            justify-content: flex-start;
+            img{
+                max-width: 100%;
+                height: auto;
+            }
+        }
+    }
+}

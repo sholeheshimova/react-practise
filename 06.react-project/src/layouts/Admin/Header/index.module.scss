@@ -1,0 +1,23 @@
+header{
+    background-color: darkolivegreen;
+    .header{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 1.5rem;
+        .adminlogo{
+            color: white;
+        }
+        ul{
+            list-style: none;
+            display: flex;
+            gap: 2rem;
+            li{
+                a{
+                    color: white;
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+}

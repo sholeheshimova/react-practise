@@ -1,0 +1,23 @@
+.clientheader{
+    background-color: mediumpurple;
+    padding: 1.5rem;
+    .header{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        .clientlogo{
+            color: white;
+        }
+        ul{
+            display: flex;
+            gap: 1.5rem;
+            list-style: none;
+            li{
+                a{
+                    color: white;
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+}

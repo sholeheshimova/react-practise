@@ -1,0 +1,25 @@
+header{
+    background-color: mediumblue;
+    padding: 1.2rem 0;
+    .header{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        .logo{
+            color: white;
+        }
+        nav{
+            ul{
+                display: flex;
+                list-style: none;
+                gap: 2rem;
+                li{
+                    a{
+                        text-decoration: none;
+                        color: white;
+                    }
+                }
+            }
+        }
+    }
+}

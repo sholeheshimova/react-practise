@@ -1,0 +1,193 @@
+header{
+    background-color: maroon;
+    padding: 2rem 0;
+    .container{
+        display: flex;
+        justify-content: space-around;
+        .logo{
+            color: white;
+        }
+        nav{
+            ul{
+                display: flex;
+                list-style: none;
+                gap: 2rem;
+                li{
+                    a{
+                        text-decoration: none;
+                        color: white;
+                    }
+                }
+            }
+        }
+    }
+    
+}
+
+main{
+    background-color: antiquewhite;
+    .cards{
+        display: flex;
+        justify-content: space-between;
+        padding: 2rem;
+        .card1{
+            border: 2px solid maroon;
+            width:200px;
+            height: auto;
+            border-radius: 10px;
+            transform: 1s ease;
+
+            &:hover{
+                width: 250px;
+                transition: 1s ease ;
+            }
+           .img1{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 1rem;
+            img{
+                width: 100px;
+                height: auto;
+                
+            }
+           }
+           .cardbody{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 1rem;
+            flex-direction: column;
+            h5{
+                color: maroon;
+                font-size: 20px;
+            }
+            p{
+                color: gray;
+                text-align: center;
+                padding: 1rem;
+            }
+            span{
+                color: maroon;
+                font-weight: bold;
+                font-size: 20px;
+            }
+           }
+        }
+        .card2{
+            border: 2px solid maroon;
+            width:200px;
+            height: auto;
+            border-radius: 10px;
+           .img2{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 1rem;
+            img{
+                width: 80px;
+                height: auto;
+                
+            }
+           }
+           .cardbody{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 1rem;
+            flex-direction: column;
+            h5{
+                color: maroon;
+                font-size: 20px;
+            }
+            p{
+                color: gray;
+                text-align: center;
+                padding: 1rem;
+            }
+            span{
+                color: maroon;
+                font-weight: bold;
+                font-size: 20px;
+            }
+           }
+        }
+        .card3{
+            border: 2px solid maroon;
+            width:200px;
+            height: auto;
+            border-radius: 10px;
+           .img3{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 1rem;
+            img{
+                width: 100px;
+                height: auto;
+                
+            }
+           }
+           .cardbody{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 1rem;
+            flex-direction: column;
+            h5{
+                color: maroon;
+                font-size: 20px;
+            }
+            p{
+                color: gray;
+                text-align: center;
+                padding: 1rem;
+            }
+            span{
+                color: maroon;
+                font-weight: bold;
+                font-size: 20px;
+            }
+           }
+        }
+        .card4{
+            border: 2px solid maroon;
+            width:200px;
+            height: auto;
+            border-radius: 10px;
+           .img4{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 1rem;
+            img{
+                width: 100px;
+                height: auto;
+                
+            }
+           }
+           .cardbody{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 1rem;
+            flex-direction: column;
+            h5{
+                color: maroon;
+                font-size: 20px;
+            }
+            p{
+                color: gray;
+                text-align: center;
+                padding: 1rem;
+            }
+            span{
+                color: maroon;
+                font-weight: bold;
+                font-size: 20px;
+            }
+           }
+        }
+    }
+
+}
